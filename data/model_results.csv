@@ -1,0 +1,2 @@
+model,MAE_kes,RMSE_kes,R2
+Linear Regression (Baseline),2285002,3741978,0.806
