@@ -1,0 +1,40 @@
+{
+  "features": [
+    "bedrooms",
+    "bathrooms",
+    "size_sqft",
+    "parking",
+    "total_rooms",
+    "location_encoded",
+    "property_type_encoded",
+    "tier_encoded",
+    "listing_month"
+  ],
+  "locations": [
+    "Kabete",
+    "Kiambu Rd",
+    "Kileleshwa",
+    "Kilimani",
+    "Lavington",
+    "Mirema",
+    "Muthangari",
+    "Riverside",
+    "Runda",
+    "Spring Valley",
+    "Syokimau",
+    "Westlands"
+  ],
+  "property_types": [
+    "Apartment",
+    "House",
+    "Townhouse"
+  ],
+  "location_tiers": [
+    "Affordable",
+    "High End",
+    "Mid Range"
+  ],
+  "mae": 946941,
+  "r2": 0.952,
+  "median_price": 12500000
+}
