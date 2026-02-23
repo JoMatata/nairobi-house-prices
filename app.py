@@ -7,7 +7,6 @@ import pandas as pd
 # ── Page config ──────────────────────────────────────────
 st.set_page_config(
     page_title="Nairobi House Price Predictor",
-    page_icon="🏠",
     layout="centered"
 )
 
@@ -26,7 +25,7 @@ model, encoders, metadata = load_model()
 
 # ── Header ────────────────────────────────────────────────
 st.title(" Nairobi House Price Predictor")
-st.markdown("Enter property details below to get an instant price estimate.")
+st.markdown("Get a data-driven price estimate for any residential property across Nairobi.")
 st.divider()
 
 # ── Input form ────────────────────────────────────────────
@@ -155,5 +154,5 @@ if st.button(" Predict Price", use_container_width=True, type="primary"):
     st.caption(
         f"Model accuracy: R² = {metadata['r2']} | "
         f"Average error: ±KES {mae/1e6:.2f}M | "
-        f"Trained on 396 real Nairobi listings from Property24"
+        f"Trained on 396 real Nairobi listings scraped from Property24 Kenya"
     )
